@@ -1,6 +1,8 @@
-# DataExpert.io SQL Solutions
+# SQL QA Collections
 
-## Question 01
+## DataExpert.io
+
+### Question 01
 [Find Viewers with Multiple Article Views in a Day](https://www.dataexpert.io/question/find-multiple-article-viewers)
 
-[Data Engineer SQL 01 Solution](DataEngineerSQL01.sql)
+[Solution](DataEngineerSQL01.sql)
