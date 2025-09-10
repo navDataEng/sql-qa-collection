@@ -221,3 +221,38 @@ These are the tables to query for this question:
 
 Your answer should include these columns:
 - `dep_name` varchar
+
+### ➡️ [Solution](DataExpert-SQL08.sql)
+
+## Question 09: [Filtering Students in Active Clubs](https://www.dataexpert.io/question/active-club-members)
+
+Given tables 
+  - clubs (id: unique club id, name: club name) and 
+  - students (id: unique student id, name: student name, club_id: club's id), 
+
+Return a list from the students table for those who are in clubs that still exist in the clubs table. 
+
+The result should have three columns (id, name, club_id) and be sorted by students' ids (id) and include only those students whose club_id matches an id in the clubs table.
+
+These are the tables to query for this question:
+- *playground.clubs*
+
+  | Columns | DataTypes |
+  | :---| :---|
+  | id | int |
+  | name | string |
+
+- *playground.students*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | name | string |
+  | club_id | int |
+
+Your answer should include these columns:
+- `id` integer
+- `name` varchar
+- `club_id` integer
+
+### ➡️ [Solution](DataExpert-SQL09.sql)

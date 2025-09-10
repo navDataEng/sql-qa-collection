@@ -16,3 +16,12 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 04: [Cars with Above Average Engine Size](https://www.dataexpert.io/question/cars-above-average-engine-size) ➡️ [Solution](DataExpert.io/DataExpert-SQL04.sql)
 
+#### Question 05: [Average Number of Births by Day of the Week](https://www.dataexpert.io/question/average-births-per-day-of-week) ➡️ [Solution](DataExpert.io/DataExpert-SQL05.sql)
+
+#### Question 06: [Month with the Highest Total Births](https://www.dataexpert.io/question/highest-birth-month) ➡️ [Solution](DataExpert.io/DataExpert-SQL06.sql)
+
+#### Question 07: [Customers with More Than 20 Orders](https://www.dataexpert.io/question/loyal-customers) ➡️ [Solution](DataExpert.io/DataExpert-SQL07.sql)
+
+#### Question 08: [Identifying Empty Departments](https://www.dataexpert.io/question/empty-departments-list) ➡️ [Solution](DataExpert.io/DataExpert-SQL08.sql)
+
+#### Question 09: [Filtering Students in Active Clubs](https://www.dataexpert.io/question/active-club-members) ➡️ [Solution](DataExpert.io/DataExpert-SQL09.sql)

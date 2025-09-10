@@ -11,7 +11,7 @@ SELECT
 FROM playground.us_birth_stats
 GROUP BY month
 ORDER BY total_births DESC
-LIMIT 1;
+--LIMIT 1;
 
 SELECT 
     TOP 1 month, 
