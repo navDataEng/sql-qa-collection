@@ -227,8 +227,8 @@ Your answer should include these columns:
 ## Question 09: [Filtering Students in Active Clubs](https://www.dataexpert.io/question/active-club-members)
 
 Given tables 
-  - clubs (id: unique club id, name: club name) and 
-  - students (id: unique student id, name: student name, club_id: club's id), 
+  - clubs (id: unique club id, name: club name) 
+  - students (id: unique student id, name: student name, club_id: club's id)
 
 Return a list from the students table for those who are in clubs that still exist in the clubs table. 
 
@@ -256,3 +256,29 @@ Your answer should include these columns:
 - `club_id` integer
 
 ### ➡️ [Solution](DataExpert-SQL09.sql)
+
+## Question 10: [Identifying the Bank Robber](https://www.dataexpert.io/question/bank-robber-identification)
+
+Using table `playground.suspect`, filter out suspects who cannot be the bank robber based on the following clues: 
+  - The robber is not taller than 170cm, and 
+  - Their name matches the pattern "B. Gre?n" where the first letter of the name is "B" or "b" and the surname is similar to "Green" but with the fourth letter being unreadable and potentially any character. 
+  - The match should be case-insensitive. For each suspect that fits these criteria, select their id, name, and surname. 
+  - Order the results by suspect id in ascending order.
+
+These are the tables to query for this question:
+- *playground.suspect*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | name | string |
+  | surname | string |
+  | height | int |
+  | weight | int |
+
+Your answer should include these columns:
+- `id` integer
+- `name` varchar
+- `surname` varchar
+
+### ➡️ [Solution](DataExpert-SQL10.sql)
