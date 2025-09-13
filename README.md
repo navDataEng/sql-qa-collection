@@ -29,3 +29,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 10: [Identifying the Bank Robber](https://www.dataexpert.io/question/bank-robber-identification) ➡️ [Solution](DataExpert.io/DataExpert-SQL10.sql)
 
 #### Question 11: [Determining the Order of Succession](https://www.dataexpert.io/question/order-of-succession) ➡️ [Solution](DataExpert.io/DataExpert-SQL11.sql)
+
+#### Question 12: [Top Reviewed Customers per Product](https://www.dataexpert.io/question/top-reviewed-customers-per-product) ➡️ [Solution](DataExpert.io/DataExpert-SQL12.sql)
