@@ -25,3 +25,7 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 08: [Identifying Empty Departments](https://www.dataexpert.io/question/empty-departments-list) ➡️ [Solution](DataExpert.io/DataExpert-SQL08.sql)
 
 #### Question 09: [Filtering Students in Active Clubs](https://www.dataexpert.io/question/active-club-members) ➡️ [Solution](DataExpert.io/DataExpert-SQL09.sql)
+
+#### Question 10: [Identifying the Bank Robber](https://www.dataexpert.io/question/bank-robber-identification) ➡️ [Solution](DataExpert.io/DataExpert-SQL10.sql)
+
+#### Question 11: [Determining the Order of Succession](https://www.dataexpert.io/question/order-of-succession) ➡️ [Solution](DataExpert.io/DataExpert-SQL11.sql)
