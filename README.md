@@ -36,5 +36,4 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 14: [Question: Analyze Yearly Profit Performance](https://www.dataexpert.io/question/yearly-profit-performance) ➡️ [Solution](DataExpert.io/DataExpert-SQL14.sql)
 
-
 #### Question 15: [Select Rows With Maximum Revenue](https://www.dataexpert.io/question/select-max-revenue-rows) ➡️ [Solution](DataExpert.io/DataExpert-SQL15.sql)
