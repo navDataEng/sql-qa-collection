@@ -33,3 +33,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 12: [Top Reviewed Customers per Product](https://www.dataexpert.io/question/top-reviewed-customers-per-product) ➡️ [Solution](DataExpert.io/DataExpert-SQL12.sql)
 
 #### Question 13: [Find US Customers Who Rented and Streamed Videos in Early February](https://www.dataexpert.io/question/us-customers-rented-streamed-early-feb) ➡️ [Solution](DataExpert.io/DataExpert-SQL13.sql)
+
+#### Question 14: [Question: Analyze Yearly Profit Performance](https://www.dataexpert.io/question/yearly-profit-performance) ➡️ [Solution](DataExpert.io/DataExpert-SQL14.sql)

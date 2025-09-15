@@ -367,3 +367,42 @@ Your answer should include these columns:
 - `user_id` integer
 
 ### ➡️ [Solution](DataExpert-SQL13.sql)
+
+## Question 14: [Question: Analyze Yearly Profit Performance](https://www.dataexpert.io/question/yearly-profit-performance)
+
+Write a SQL query to analyze the profit performance of the company throughout the years using the `playground.superstore` table. 
+
+The output should include the year extracted from the order_date (order_year), the total annual profit (total_profit) rounded to two decimal places, and should be ordered by year in descending order.
+
+These are the tables to query for this question:
+- *playground.superstore*
+
+| Columns        | DataTypes |
+|----------------|-----------|
+| row_id         | int       |
+| order_id       | string    |
+| order_date     | date      |
+| ship_date      | date      |
+| ship_mode      | string    |
+| customer_id    | string    |
+| customer_name  | string    |
+| segment        | string    |
+| country        | string    |
+| city           | string    |
+| state          | string    |
+| postal_code    | int       |
+| region         | string    |
+| product_id     | string    |
+| category       | string    |
+| sub_category   | string    |
+| product_name   | string    |
+| sales          | string    |
+| quantity       | string    |
+| discount       | string    |
+| profit         | double    |
+
+Your answer should include these columns:
+- `order_year` integer
+- `total_profit` double
+
+### ➡️ [Solution](DataExpert-SQL14.sql)
