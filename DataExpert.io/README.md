@@ -333,3 +333,37 @@ Your answer should include these columns:
 - `helpful_votes` integer
 
 ### ➡️ [Solution](DataExpert-SQL12.sql)
+
+## Question 13: [Find US Customers Who Rented and Streamed Videos in Early February](https://www.dataexpert.io/question/us-customers-rented-streamed-early-feb)
+
+Write a SQL query to return the US customers who rented a video on February 1st, 2023, and then streamed the same video between February 2nd and February 8th, 2023. 
+
+Use the tables `playground.rental` for rental data and `playground.streams` for streaming data. 
+
+The output should include unique user IDs of these customers ordered in ascending order.
+
+These are the tables to query for this question:
+- *playground.rental*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | country | string |
+  | rental_date | date |
+  | rental_id | int |
+  | user_id | int |
+
+- *playground.streams*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | country | string |
+  | stream_date | date |
+  | rental_id | int |
+  | user_id | int |
+  | device_type | string |
+  | minutes_streamed | int |
+
+Your answer should include these columns:
+- `user_id` integer
+
+### ➡️ [Solution](DataExpert-SQL13.sql)
