@@ -406,3 +406,23 @@ Your answer should include these columns:
 - `total_profit` double
 
 ### ➡️ [Solution](DataExpert-SQL14.sql)
+
+## Question 15: [Select Rows With Maximum Revenue](https://www.dataexpert.io/question/select-max-revenue-rows)
+
+Write a SQL query to select rows from a given table that have the maximum revenue value for each id. 
+
+The resultant table should have three columns - "id", "rev", "content". Additionally, the results should be ordered in descending order by revenue.
+
+These are the tables to query for this question:
+- *playground.revenue*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | rev | int |
+  | content | string |
+
+Your answer should include these columns:
+- `id` integer
+- `rev` integer
+- `content` varchar
