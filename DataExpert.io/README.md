@@ -426,3 +426,48 @@ Your answer should include these columns:
 - `id` integer
 - `rev` integer
 - `content` varchar
+
+### ➡️ [Solution](DataExpert-SQL15.sql)
+
+## Question 16: [Salary Range Difference](https://www.dataexpert.io/question/salary-range-difference)
+
+Calculate the difference between the sum of the highest salaries and the sum of the lowest salaries in the company.
+
+The table `playground.employees_salary` contains columns "id" (unique employee ID), "name" (employee's name), and "salary" (employee's salary as a positive integer). 
+
+The result should be a single column `difference` with one row representing the calculated difference. If the "playground.employees_salary" table is empty, "difference" should be 0.
+
+These are the tables to query for this question:
+- *`playground.employees_salary`*
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | name | string |
+  |salary | int |
+
+Your answer should include these columns:
+- `difference` integer
+
+### ➡️ [Solution](DataExpert-SQL16.sql)
+
+
+## Question 17: [Find Product Prices](https://www.dataexpert.io/question/find-product-prices)
+
+Using the table playground.product_prices, create a SQL query to find all products and their prices on 2023-08-17, assuming the initial price of all products was 10 before any price changes. 
+
+Order the results in ascending order of product_id.
+
+These are the tables to query for this question:
+- *`playground.product_prices`*
+  
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | product_id | int |
+  | new_price | int |
+  | change_date | date |
+
+Your answer should include these columns:
+- `product_id` integer
+- `price` integer
+
+### ➡️ [Solution](DataExpert-SQL17.sql)
