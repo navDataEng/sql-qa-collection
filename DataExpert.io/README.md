@@ -500,3 +500,31 @@ Your answer should include these columns:
 - `comparison_to_national_avg` varchar
 
 ### ➡️ [Solution](DataExpert-SQL18.sql)
+
+## Question 19: [Who are the top 10 authors by number of reviews](https://www.dataexpert.io/question/top-10-authors-by-reviews)
+
+Using bootcamp.books, find the top 10 authors by reviews, no_of_reviews is a string column with bad data, try your best to get the values to parse correctly
+
+These are the tables to query for this question:
+- *`bootcamp.books`*
+
+  | Columns | DataTypes |
+  | :-- | :-- |
+  | s_no | int |
+  | price | double |
+  | ranks | int |
+  | title | string |
+  | no_of_reviews | string |
+  | ratings | string |
+  | author | string |
+  | cover_type | string |
+  | year | string |
+  | genre | string |
+
+Your answer should include these columns:
+- `author` varchar
+- `number_of_reviews` bigint
+
+### ➡️ [Solution](DataExpert-SQL19.sql) 
+### ➡️ [Solution From DataExpert.io](https://www.linkedin.com/posts/eczachly_dataengineering-activity-7164347913316290560-hTF3/)
+
