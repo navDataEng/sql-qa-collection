@@ -41,3 +41,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 16: [Salary Range Difference](https://www.dataexpert.io/question/salary-range-difference) ➡️ [Solution](DataExpert.io/DataExpert-SQL16.sql)
 
 #### Question 17: [Find Product Prices](https://www.dataexpert.io/question/find-product-prices) ➡️ [Solution](DataExpert.io/DataExpert-SQL17.sql)
+
+## Question 18: [Comparing State Fatal Collisions to the National Average](https://www.dataexpert.io/question/state-fatal-collisions) ➡️ [Solution](DataExpert.io/DataExpert-SQL18.sql)
