@@ -570,3 +570,29 @@ Your answer should include these columns:
 ### ➡️ [Solution](DataExpert-SQL19.sql)
 
 ### ➡️ [Solution From DataExpert.io](https://www.linkedin.com/posts/eczachly_dataengineering-activity-7164347913316290560-hTF3/)
+
+## Question 20: [Finding Highest Grade and Corresponding Course per Student](https://www.dataexpert.io/question/highest-grade-corresponding-course)
+
+Using the table `playground.student_grades`, write a SQL query to find the highest grade and its corresponding course for each student.
+
+In cases where there is a tie for the highest grade, select the course with the smallest course_id.
+
+The output should include student_id, course_id, and the grade, with the results sorted by increasing student_id.
+
+These are the tables to query for this question:
+
+- *`playground.student_grades`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | student_id | int |
+  | course_id | int |
+  | grade | int |
+
+Your answer should include these columns:
+
+- `student_id` integer
+- `course_id` integer
+- `grade` integer
+
+### ➡️ [Solution](DataExpert-SQL20.sql)

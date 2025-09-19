@@ -47,3 +47,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 18: [Comparing State Fatal Collisions to the National Average](https://www.dataexpert.io/question/state-fatal-collisions) ➡️ [Solution](DataExpert.io/DataExpert-SQL18.sql)
 
 #### Question 19: [Who are the top 10 authors by number of reviews](https://www.dataexpert.io/question/top-10-authors-by-reviews) ➡️ [Solution](DataExpert.io/DataExpert-SQL19.sql)
+
+#### Question 20: [Finding Highest Grade and Corresponding Course per Student](https://www.dataexpert.io/question/highest-grade-corresponding-course) ➡️ [Solution](DataExpert.io/DataExpert-SQL20.sql)
