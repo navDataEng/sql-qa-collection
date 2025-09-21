@@ -49,3 +49,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 19: [Who are the top 10 authors by number of reviews](https://www.dataexpert.io/question/top-10-authors-by-reviews) ➡️ [Solution](DataExpert.io/DataExpert-SQL19.sql)
 
 #### Question 20: [Finding Highest Grade and Corresponding Course per Student](https://www.dataexpert.io/question/highest-grade-corresponding-course) ➡️ [Solution](DataExpert.io/DataExpert-SQL20.sql)
+
+#### Question 21: [Summarizing Foreign Competitors by Country with Total Summary](https://www.dataexpert.io/question/foreign-competitors-summary) ➡️ [Solution](DataExpert.io/DataExpert-SQL21.sql)
