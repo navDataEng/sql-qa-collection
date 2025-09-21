@@ -221,7 +221,7 @@ Write a SQL query to build a table with one column, `dep_name`. This table shoul
 
 These are the tables to query for this question:
 
-- *playground.employees*
+- *`playground.employees`*
 
   | Columns | DataTypes |
   |:---|:---|
@@ -229,7 +229,7 @@ These are the tables to query for this question:
   | full_name | string |
   | department | int |
 
-- *playground.departments*
+- *`playground.departments`*
 
   | Columns | DataTypes |
   |:---|:---|
