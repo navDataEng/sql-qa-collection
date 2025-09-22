@@ -51,3 +51,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 20: [Finding Highest Grade and Corresponding Course per Student](https://www.dataexpert.io/question/highest-grade-corresponding-course) ➡️ [Solution](DataExpert.io/DataExpert-SQL20.sql)
 
 #### Question 21: [Summarizing Foreign Competitors by Country with Total Summary](https://www.dataexpert.io/question/foreign-competitors-summary) ➡️ [Solution](DataExpert.io/DataExpert-SQL21.sql)
+
+#### Question 22: [Identifying Active Businesses Based on Event Occurrences](https://www.dataexpert.io/question/active-businesses-identification) ➡️ [Solution](DataExpert.io/DataExpert-SQL22.sql)
