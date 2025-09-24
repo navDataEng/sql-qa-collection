@@ -644,3 +644,52 @@ Your answer should include these columns:
 - `business_id` integer
 
 ### ➡️ [Solution](DataExpert-SQL22.sql)
+
+## Question 23: [Calculate 3-Day Rolling Average of Posts per User](https://www.dataexpert.io/question/calculate-3-day-rolling-average)
+
+Using the table `playground.posts`, write a SQL query to calculate the `3-day rolling average` of posts for each user.
+
+The output should include columns: user_id, post_date, and third_rolling_avg, where third_rolling_avg is the 3-day rolling average of *post count* for each user, rounded to 2 decimal places.
+
+The rolling average should be calculated over a specified 3-day period for each user, including the current day and the two preceding days. The result should be ordered in ascending order of post date
+
+These are the tables to query for this question:
+
+- *`playground.posts`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | user_id | int |
+  | post_date | date |
+  | post_count | int |
+
+Your answer should include these columns:
+
+- `user_id` integer
+- `post_date` date
+- `third_rolling_avg` double
+
+### ➡️ [Solution](DataExpert-SQL23.sql)
+
+## Question 24: [Top 2 Customers with Highest Sales Every Month](https://www.dataexpert.io/question/top-customers-monthly-sales)
+
+Using the table `playground.sales`, Identify the top 2 customers based on their total sales for each month. Display the result based on asc order of their month and rank.
+
+These are the tables to query for this question:
+
+- *`playground.sales`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | month | string |
+  | sales  | int |
+
+Your answer should include these columns:
+
+- `id` integer
+- `month` varchar
+- `total_sales` integer
+- `rank` integer
+
+### ➡️ [Solution](DataExpert-SQL24.sql)
