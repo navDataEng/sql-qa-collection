@@ -759,3 +759,43 @@ Your answer should include these columns:
 - `free_seats` integer
 
 ### ➡️ [Solution](DataExpert-SQL26.sql)
+
+## Question 27: [Most Popular Fuel System for Each Fuel Type](https://www.dataexpert.io/question/popular-fuel-system-by-fuel-type)
+
+Using the table `playground.automobile`, create a SQL query to find the most popular fuel system for each fuel type based on the number of cars.
+
+Include columns for fuel type, fuel system, and the count of cars, showing only the top fuel system for each fuel type. Order the result on the basis of fuel type in ascending order.
+
+These are the tables to query for this question:
+
+- *`playground.automobile`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | brand_name | string |
+  | fuel_type | string |
+  | aspiration | string |
+  | door_panel | string |
+  | design | string |
+  | wheel_drive | string |
+  | engine_location | string |
+  | engine_type | string |
+  | cylinder_count | string |
+  | engine_size | int |
+  | fuel_system | string |
+  | bore | double |
+  | stroke | double |
+  | compression_ratio | double |
+  | horse_power | int |
+  | top_RPM | int |
+  | city_mileage | int |
+  | highway_mileage | int |
+  | price_in_dollars | int |
+
+Your answer should include these columns:
+
+- `fuel_type` varchar
+- `fuel_system` varchar
+- `total_cars` integer
+
+### ➡️ [Solution](DataExpert-SQL27.sql)

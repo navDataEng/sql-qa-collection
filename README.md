@@ -61,3 +61,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 25: [Which states have high risk of fatal collisions involving Alcohol](https://www.dataexpert.io/question/high-risk-state-analysis) ➡️ [Solution](DataExpert.io/DataExpert-SQL25.sql)
 
 #### Question 26 : [Calculating Available Seats on Flights](https://www.dataexpert.io/question/available-seats-per-flight) ➡️ [Solution](DataExpert.io/DataExpert-SQL26.sql)
+
+#### Question 27: [Most Popular Fuel System for Each Fuel Type](https://www.dataexpert.io/question/popular-fuel-system-by-fuel-type) ➡️ [Solution](DataExpert.io/DataExpert-SQL26.sql)
