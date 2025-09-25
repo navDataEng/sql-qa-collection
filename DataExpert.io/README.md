@@ -693,3 +693,69 @@ Your answer should include these columns:
 - `rank` integer
 
 ### ➡️ [Solution](DataExpert-SQL24.sql)
+
+## Question 25: [Which states have high risk of fatal collisions involving Alcohol](https://www.dataexpert.io/question/high-risk-state-analysis)
+
+Using `playground.bad_drivers`, determine the states and their percentage of alcohol impaired collisions where the risk of fatal collisions involving alcohol is significantly higher than the national average.
+
+Consider a state as high-risk if its percent_alcohol_impaired is at least 20% higher than the national average. Show the output in descending order of the percent_alcohol_impaired.
+
+These are the tables to query for this question:
+
+- *`playground.bad_drivers`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | state | string |
+  | fatal_collisions_per_billion_miles | double |
+  | percent_speeding | int |
+  | percent_alcohol_impaired | int |
+  | percent_not_distracted | int |
+  | percent_no_previous_accidents | int |
+  | insurance_premiums | double |
+  | losses_per_insured_driver | double |
+
+Your answer should include these columns:
+
+- `state` varchar
+- `percent_alcohol_impaired` integer
+
+### ➡️ [Solution](DataExpert-SQL25.sql)
+
+## Question 26 : [Calculating Available Seats on Flights](https://www.dataexpert.io/question/available-seats-per-flight)
+
+Calculate the number of seats not yet purchased for each flight. Use three tables: `playground.flights` (with columns: flight_id, plane_id), `playground.planes` (with columns: plane_id, number_of_seats), and `playground.purchases` (with columns: flight_id, seat_no).
+
+Each row in purchases is unique for (flight_id, seat_no) pairs. For each flight_id, compute the free_seats as the number of seats not purchased.
+
+Order the results by flight_id in ascending order. Ensure consistency in purchases, with no records for non-existing flight_ids or seat_nos.
+
+These are the tables to query for this question:
+
+- *`playground.flights`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | flight_id | int |
+  | plane_id | int |
+
+- *`playground.planes`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | plane_id | int |
+  | number_of_seats | int |
+
+- *`playground.purchases`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | flight_id | int |
+  | seat_no | int |
+
+Your answer should include these columns:
+
+- `flight_id` integer
+- `free_seats` integer
+
+### ➡️ [Solution](DataExpert-SQL26.sql)

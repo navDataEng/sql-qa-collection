@@ -54,6 +54,10 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 22: [Identifying Active Businesses Based on Event Occurrences](https://www.dataexpert.io/question/active-businesses-identification) ➡️ [Solution](DataExpert.io/DataExpert-SQL22.sql)
 
-## Question 23: [Calculate 3-Day Rolling Average of Posts per User](https://www.dataexpert.io/question/calculate-3-day-rolling-average) ➡️ [Solution](DataExpert.io/DataExpert-SQL23.sql)
+#### Question 23: [Calculate 3-Day Rolling Average of Posts per User](https://www.dataexpert.io/question/calculate-3-day-rolling-average) ➡️ [Solution](DataExpert.io/DataExpert-SQL23.sql)
 
-## Question 24: [Top 2 Customers with Highest Sales Every Month](https://www.dataexpert.io/question/top-customers-monthly-sales) ➡️ [Solution](DataExpert.io/DataExpert-SQL23.sql)
+#### Question 24: [Top 2 Customers with Highest Sales Every Month](https://www.dataexpert.io/question/top-customers-monthly-sales) ➡️ [Solution](DataExpert.io/DataExpert-SQL24.sql)
+
+#### Question 25: [Which states have high risk of fatal collisions involving Alcohol](https://www.dataexpert.io/question/high-risk-state-analysis) ➡️ [Solution](DataExpert.io/DataExpert-SQL25.sql)
+
+#### Question 26 : [Calculating Available Seats on Flights](https://www.dataexpert.io/question/available-seats-per-flight) ➡️ [Solution](DataExpert.io/DataExpert-SQL26.sql)
