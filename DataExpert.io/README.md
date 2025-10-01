@@ -799,3 +799,57 @@ Your answer should include these columns:
 - `total_cars` integer
 
 ### ➡️ [Solution](DataExpert-SQL27.sql)
+
+## Question 28: [Calculate Monthly Average Product Rating](https://www.dataexpert.io/question/monthly-average-product-rating)
+
+Using the table `playground.product_reviews`, write a SQL query to calculate the monthly average rating for each product.
+
+The resulting table should have three columns: month, product_id, and avg_review, where avg_review is the average review rating of the product for that month. The results should be ordered in ascending order of month and product_id
+
+These are the tables to query for this question:
+
+- *`playground.product_reviews`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | seller_id | int |
+  | customer_id | int |
+  | product_id | int |
+  | review_date | date |
+  | review_score | double |
+  | helpful_votes | int |
+
+Your answer should include these columns:
+
+- `month` integer
+- `product_id` integer
+- `avg_review` double
+
+### ➡️ [Solution](DataExpert-SQL28.sql)
+
+## Question 29: [Transform workers_info Table to Exclude NULL Values](https://www.dataexpert.io/question/exclude-null-values-workers-info)
+
+Given a table named `playground.workers_info`, write a SQL query to transform this table.
+
+The transformation should result in a table with three columns: id, column_name, and value, where column_name is the name of the original column containing a non-NULL value for each id, and value is the stringified non-NULL value from this column.
+
+Exclude rows where the original value is NULL. The result should be sorted by id in ascending order, and for rows with the same id, sorted by column_name in ascending order.
+
+These are the tables to query for this question:
+
+- *`playground.workers_info`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | name | string |
+  | date_of_birth | date |
+  | salary | int |
+
+Your answer should include these columns:
+
+- `id` integer
+- `column_name` varchar
+- `value` varchar
+
+### ➡️ [Solution](DataExpert-SQL29.sql)

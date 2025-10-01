@@ -2,9 +2,9 @@
 
 Welcome to the **SQL QA Collection** repository!  
 
-This project gathers a variety of SQL questions and their solutions from multiple sources.  
+This repo gathers a variety of SQL questions and their solutions from multiple sources.  
 
-It serves as a resource for learning, practicing, and reviewing SQL concepts through real-world examples.
+It serves as a resource for learning, practicing, and reviewing SQL concepts through Questions.
 
 ## [DataExpert.io](DataExpert.io/README.md)
 
@@ -62,4 +62,8 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 26 : [Calculating Available Seats on Flights](https://www.dataexpert.io/question/available-seats-per-flight) ➡️ [Solution](DataExpert.io/DataExpert-SQL26.sql)
 
-#### Question 27: [Most Popular Fuel System for Each Fuel Type](https://www.dataexpert.io/question/popular-fuel-system-by-fuel-type) ➡️ [Solution](DataExpert.io/DataExpert-SQL26.sql)
+#### Question 27: [Most Popular Fuel System for Each Fuel Type](https://www.dataexpert.io/question/popular-fuel-system-by-fuel-type) ➡️ [Solution](DataExpert.io/DataExpert-SQL27.sql)
+
+#### Question 28: [Calculate Monthly Average Product Rating](https://www.dataexpert.io/question/monthly-average-product-rating) ➡️ [Solution](DataExpert.io/DataExpert-SQL28.sql)
+
+#### Question 29: [Transform workers_info Table to Exclude NULL Values](https://www.dataexpert.io/question/exclude-null-values-workers-info) ➡️ [Solution](DataExpert.io/DataExpert-SQL29.sql)
