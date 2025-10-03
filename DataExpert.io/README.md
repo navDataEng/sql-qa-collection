@@ -853,3 +853,45 @@ Your answer should include these columns:
 - `value` varchar
 
 ### ➡️ [Solution](DataExpert-SQL29.sql)
+
+## Question 30: [Calculate Average Lead Time for Each Shipping Option](https://www.dataexpert.io/question/average-lead-time-shipping-option)
+
+Using the `playground.superstore` table, write a SQL query to calculate the average lead time from order to shipping for each shipping option. The lead time is defined as the number of days from the order date to the ship date.
+
+Additionally, count the total number of shipping services provided for each shipping option. The output should include the shipping mode (ship_mode), the total count of shipping services (total_shipping_service), and the average lead time (avg_lead_time), rounded to two decimal places. Order the results by shipping mode in descending order.
+
+These are the tables to query for this question:
+
+- *`playground.superstore`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | row_id | int |
+  | order_id | string |
+  | order_date | date |
+  | ship_date | date |
+  | ship_mode | string |
+  | customer_id | string |
+  | customer_name | string |
+  | segment | string |
+  | country | string |
+  | city | string |
+  | state | string |
+  | postal_code | int |
+  | region | string |
+  | product_id | string |
+  | category | string |
+  | sub_category | string |
+  | product_name | string |
+  | sales | string |
+  | quantity | string |
+  | discount | string |
+  | profit | double |
+
+Your answer should include these columns:
+
+- `ship_mode` varchar
+- `total_shipping_service` integer
+- `avg_lead_time` double
+
+### ➡️ [Solution](DataExpert-SQL30.sql)

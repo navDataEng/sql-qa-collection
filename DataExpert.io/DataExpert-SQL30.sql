@@ -1,6 +1,7 @@
 -- Question: Calculate Average Lead Time for Each Shipping Option
 -- https://www.dataexpert.io/question/average-lead-time-shipping-option
 
+-- Runs on snowflake
 SELECT 
     ship_mode,
     COUNT(*) AS total_shipping_service,
