@@ -932,3 +932,44 @@ Your answer should include these columns:
 - `age` integer
 
 ### ➡️ [Solution](DataExpert-SQL31.sql)
+
+## Question 32: [Analyze Engine Efficiency by Fuel Type](https://www.dataexpert.io/question/analyze-engine-efficiency)
+
+Using the table `playground.automobile`, write a SQL query to analyze engine efficiency by comparing the average city mileage to highway mileage for each fuel type. The efficiency ratio is defined as the average highway mileage divided by the average city mileage.
+
+Include fuel type, average city mileage, average highway mileage, and efficiency ratio in the results, rounded up to 2 decimal places, ordered by the highest efficiency ratio.
+
+These are the tables to query for this question:
+
+- *`playground.automobile`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | brand_name | string |
+  | fuel_type | string |
+  | aspiration | string |
+  | door_panel | string |
+  | design | string |
+  | wheel_drive | string |
+  | engine_location | string |
+  | engine_type | string |
+  | cylinder_count | string |
+  | engine_size | int |
+  | fuel_system | string |
+  | bore | double |
+  | stroke | double |
+  | compression_ratio | double |
+  | horse_power | int |
+  | top_RPM | int |
+  | city_mileage | int |
+  | highway_mileage | int |
+  | price_in_dollars | int |
+
+Your answer should include these columns:
+
+- `fuel_type` varchar
+- `avg_city_mileage` double
+- `avg_highway_mileage` double
+- `efficiency_ratio` double
+
+### ➡️ [Solution](DataExpert-SQL32.sql)

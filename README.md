@@ -71,3 +71,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 30: [Calculate Average Lead Time for Each Shipping Option](DataExpert.io/README.md#question-30-calculate-average-lead-time-for-each-shipping-option) ➡️ [Solution](DataExpert.io/DataExpert-SQL30.sql)
 
 #### Question 31: [Finding Actors by Favorite Movie Genre](dataexpert.io/README.md#question-31-finding-actors-by-favorite-movie-genre) ➡️ [Solution](DataExpert.io/DataExpert-SQL31.sql)
+
+#### Question 32: [Analyze Engine Efficiency by Fuel Type](dataexpert.io/README.md#question-32-Analyze-Engine-Efficiency-by-Fuel-Type) ➡️ [Solution](DataExpert.io/DataExpert-SQL32.sql)
