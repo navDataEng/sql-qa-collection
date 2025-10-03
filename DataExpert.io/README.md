@@ -895,3 +895,40 @@ Your answer should include these columns:
 - `avg_lead_time` double
 
 ### ➡️ [Solution](DataExpert-SQL30.sql)
+
+## Question 31: [Finding Actors by Favorite Movie Genre](https://www.dataexpert.io/question/actors-by-favorite-genre)
+
+Given three tables - `playground.movies`, `playground.starring_actors`, and `playground.actor_ages` - identify actors from the most common movie genre in your library. Assume each actor is listed once representing their best role.
+
+The task is to list actors with their age, sorted from oldest to youngest, who star in movies of your favorite genre (the `most common genre` in your list). In case of actors being the same age, sort them by name.The resultant table should have two columns, actor and age.
+
+These are the tables to query for this question:
+
+- *`playground.movies`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | movie | string |
+  | genre | string |
+
+- *`playground.starring_actors`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | movie_name | string |
+  | actor | string |
+
+- *`playground.actor_ages`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | actor | string |
+  | age | int |
+
+Your answer should include these columns:
+
+- `actor` varchar
+- `age` integer
+
+### ➡️ [Solution](DataExpert-SQL31.sql)

@@ -69,3 +69,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 29: [Transform workers_info Table to Exclude NULL Values](DataExpert.io/README.md#question-29-transform-workers_info-table-to-exclude-null-values) ➡️ [Solution](DataExpert.io/DataExpert-SQL29.sql)
 
 #### Question 30: [Calculate Average Lead Time for Each Shipping Option](DataExpert.io/README.md#question-30-calculate-average-lead-time-for-each-shipping-option) ➡️ [Solution](DataExpert.io/DataExpert-SQL30.sql)
+
+#### Question 31: [Finding Actors by Favorite Movie Genre](dataexpert.io/README.md#question-31-finding-actors-by-favorite-movie-genre) ➡️ [Solution](DataExpert.io/DataExpert-SQL31.sql)
