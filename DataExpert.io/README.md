@@ -973,3 +973,137 @@ Your answer should include these columns:
 - `efficiency_ratio` double
 
 ### ➡️ [Solution](DataExpert-SQL32.sql)
+
+## Question 33: [Filtering Dance Contest Scores](https://www.dataexpert.io/question/dance-contest-score-filtering)
+
+Given a table `playground.dance_scores` (columns: arbiter_id, first_criterion, second_criterion, third_criterion) with scores from 1 to 10 awarded by judges in a dance contest, write a query to exclude scores from any judge who awarded an extreme score (either minimum or maximum) for at least two criteria. Return the filtered scores, sorted by `arbiter_id`.
+
+These are the tables to query for this question:
+
+- *`playground.dance_scores`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | arbiter_id | int |
+  | first_criterion | int |
+  | second_criterion | int |
+  | third_criterion | int |
+
+Your answer should include these columns:
+
+- `arbiter_id` integer
+- `first_criterion` integer
+- `second_criterion` integer
+- `third_criterion` integer
+
+### ➡️ [Solution](DataExpert-SQL33.sql)
+
+## Question 34: [Identify Products Sold Exclusively in January 2024](https://www.dataexpert.io/question/products-exclusive-jan-sales)
+
+Using the tables `playground.products` and `playground.product_sales`, write a SQL query to find products that were sold exclusively within the month of January 2024 (from "2024-01-01" to "2024-01-31", inclusive). The output should include the `product_id` and `product_name` for each qualifying product.
+
+These are the tables to query for this question:
+
+- *`playground.products`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | product_id | int |
+  | product_name | string |
+  | unit_price | int |
+
+- *`playground.product_sales`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | seller_id | int |
+  | product_id | int |
+  | buyer_id | int |
+  | sale_date | date |
+  | quantity | int |
+  | price | int |
+
+Your answer should include these columns:
+
+- `product_id` integer
+- `product_name` varchar
+
+### ➡️ [Solution](DataExpert-SQL34.sql)
+
+## Question 35: [Calculating Median Searches per User](https://www.dataexpert.io/question/calculate-median-searches)
+
+Using the table `playground.search_freq` with each row representing the number of searches (searches column) made by a certain number of users (users column), write a SQL query to calculate the median number of searches per user up to one decimal place and be sure to cast it as a double.
+
+These are the tables to query for this question:
+
+- *`playground.search_freq`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | searches | int |
+  | num_users | int |
+
+Your answer should include these columns:
+
+- `median` double
+
+### ➡️ [Solution](DataExpert-SQL35.sql)
+
+## Question 36: [Determining Optimal Packaging for Christmas Gifts](https://www.dataexpert.io/question/optimal-gift-packaging)
+
+Given two tables, `playground.gifts` and `playground.packages`, write a SQL query to match each gift to the smallest package it fits into based on dimensions. A gift fits in a package if its dimensions are less than or equal to those of the package. A package is considered smaller than another if its volume is smaller. Each package can hold only one gift.
+
+Produce a table with columns: `package_type` and `number`, where number indicates how many gifts are matched to each package_type. Exclude package types not used. Sort the result by package_type in ascending order. Assume every gift fits in at least one package and no two packages have the same volume.
+
+These are the tables to query for this question:
+
+- *`playground.gifts`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | gift_name | string |
+  | length | int |
+  | width | int |
+  | height | int |
+
+- *`playground.packages`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | package_type | string |
+  | length | int |
+  | width | int |
+  | height | int |
+
+Your answer should include these columns:
+
+- `package_type` varchar
+- `number` integer
+
+### ➡️ [Solution](DataExpert-SQL36.sql)
+
+## Question 37: [Countries and Their Preferences for Beer, Spirit, and Wine](https://www.dataexpert.io/question/countries-drink-preferences)
+
+Create a SQL query to find all countries and their preference for beer, spirit, and wine, based on the highest serving type as their preference.
+
+The output should show only the countries whose preferences are wine and spirits, ordered in ascending order of the country name.
+
+These are the tables to query for this question:
+
+- *`playground.drinks`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | country | string |
+  | beer_servings | int |
+  | spirit_servings | int |
+  | wine_servings | int |
+  | total_litres_of_pure_alcohol | double |
+
+Your answer should include these columns:
+
+- `country` varchar
+- `preferred_drink` varchar
+
+### ➡️ [Solution](DataExpert-SQL37.sql)

@@ -73,3 +73,13 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 31: [Finding Actors by Favorite Movie Genre](DataExpert.io/README.md#question-31-finding-actors-by-favorite-movie-genre) ➡️ [Solution](DataExpert.io/DataExpert-SQL31.sql)
 
 #### Question 32: [Analyze Engine Efficiency by Fuel Type](DataExpert.io/README.md#question-32-analyze-engine-efficiency-by-fuel-type) ➡️ [Solution](DataExpert.io/DataExpert-SQL32.sql)
+
+#### Question 33: [Filtering Dance Contest Scores](DataExpert.io/README.md#question-33-filtering-dance-contest-scores) ➡️ [Solution](DataExpert.io/DataExpert-SQL33.sql)
+
+#### Question 34: [Identify Products Sold Exclusively in January 2024](DataExpert.io/README.md#question-34-identify-products-sold-exclusively-in-january-2024) ➡️ [Solution](DataExpert.io/DataExpert-SQL34.sql)
+
+#### Question 35: [Calculating Median Searches per User](DataExpert.io/README.md#question-35-calculating-median-searches-per-user) ➡️ [Solution](DataExpert.io/DataExpert-SQL35.sql)
+
+#### Question 36: [Determining Optimal Packaging for Christmas Gifts](DataExpert.io/README.md#question-36-determining-optimal-packaging-for-christmas-gifts) ➡️ [Solution](DataExpert.io/DataExpert-SQL36.sql)
+
+#### Question 37: [Countries and Their Preferences for Beer, Spirit, and Wine](DataExpert.io/README.md#question-37-countries-and-their-preferences-for-beer-spirit-and-wine) ➡️ [Solution](DataExpert.io/DataExpert-SQL37.sql)
