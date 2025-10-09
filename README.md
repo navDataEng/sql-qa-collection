@@ -83,3 +83,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 36: [Determining Optimal Packaging for Christmas Gifts](DataExpert.io/README.md#question-36-determining-optimal-packaging-for-christmas-gifts) ➡️ [Solution](DataExpert.io/DataExpert-SQL36.sql)
 
 #### Question 37: [Countries and Their Preferences for Beer, Spirit, and Wine](DataExpert.io/README.md#question-37-countries-and-their-preferences-for-beer-spirit-and-wine) ➡️ [Solution](DataExpert.io/DataExpert-SQL37.sql)
+
+## Question 38: [Most Frequently Purchased Sub-Category in Each Region](DataExpert.io/README.md#question-38-most-frequently-purchased-sub-category-in-each-region) ➡️ [Solution](DataExpert.io/DataExpert-SQL38.sql)
