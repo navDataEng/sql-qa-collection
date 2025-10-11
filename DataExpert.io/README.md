@@ -1149,3 +1149,27 @@ Your answer should include these columns:
 - `purchase_count` bigint
 
 ### ➡️ [Solution](DataExpert-SQL38.sql)
+
+## Question 39: [Total Server Fleet Uptime in Full Days](https://www.dataexpert.io/question/server-fleet-uptime-full-days)
+
+Using the `playground.sessions` table, write a SQL query to calculate the total uptime of the server fleet in full days. The table records each server's start and stop times as separate entries.
+
+The total uptime `total_uptime_days` is defined as the sum of all periods during which any server was running, represented as a single integer value for the total number of full days.
+
+Assume each 'start' session_status has a corresponding 'stop' status, and sessions do not overlap for the same server.
+
+These are the tables to query for this question:
+
+- *`playground.sessions`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | session_id | int |
+  | session_time | date |
+  | session_status | string |
+
+Your answer should include these columns:
+
+- `total_uptime_days` integer
+
+### ➡️ [Solution](DataExpert-SQL39.sql)
