@@ -88,4 +88,6 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 39: [Total Server Fleet Uptime in Full Days](DataExpert.io/README.md#question-39-total-server-fleet-uptime-in-full-days) ➡️ [Solution](DataExpert.io/DataExpert-SQL39.sql)
 
-#### Question 40: [Question: Optimizing Stock of Prime and Non-Prime Items in a Warehouse](DataExpert.io/README.md#question-40-question-optimizing-stock-of-prime-and-non-prime-items-in-a-warehouse) ➡️ [Solution](DataExpert.io/DataExpert-SQL40.sql)
+#### Question 40: [Optimizing Stock of Prime and Non-Prime Items in a Warehouse](DataExpert.io/README.md#question-40-optimizing-stock-of-prime-and-non-prime-items-in-a-warehouse) ➡️ [Solution](DataExpert.io/DataExpert-SQL40.sql)
+
+## Question 41: [Check Second Sale Brand Preference Match](DataExpert.io/README.md#question-41-check-second-sale-brand-preference-match) ➡️ [Solution](DataExpert.io/DataExpert-SQL41.sql)

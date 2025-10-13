@@ -1174,7 +1174,7 @@ Your answer should include these columns:
 
 ### ➡️ [Solution](DataExpert-SQL39.sql)
 
-## Question 40: [Question: Optimizing Stock of Prime and Non-Prime Items in a Warehouse](https://datalemur.com/questions/prime-warehouse-storage)
+## Question 40: [Optimizing Stock of Prime and Non-Prime Items in a Warehouse](https://datalemur.com/questions/prime-warehouse-storage)
 
 Amazon wants to maximize the storage capacity of its `500,000` square-foot warehouse by prioritizing a specific batch of prime items. The specific prime product batch detailed in the inventory table must be maintained.
 
@@ -1226,3 +1226,47 @@ Your answer should include these columns:
 
 - `item_type` varchar
 - `item_count` integer
+
+### ➡️ [Solution](DataExpert-SQL40.sql)
+
+## Question 41: [Check Second Sale Brand Preference Match](https://www.dataexpert.io/question/second-item-preferred-brand-match)
+
+Using the tables `playground.users`, `playground.items`, and `playground.orders`, write a SQL query to determine for each user, whether the brand of the second item they sold matches their preferred brand.
+
+The output should include two columns: `seller_id` and `has_pref_brand`, where has_pref_brand is "yes" if the brand of the second item sold matches the users preferred brand, and "no" otherwise.
+
+If a user sold less than two items, report the answer for that user as "no". It is guaranteed that no seller sold more than one item on the same day. The result should be ordered by `seller_id` in ascending order.
+
+These are the tables to query for this question:
+
+- *`playground.users`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | user_id | int |
+  | join_date | date |
+  | preferred_brand | string |
+
+- *`playground.items`*
+
+  | Clumns | DataTypes |
+  | :--- | :--- |
+  | item_id | int |
+  | item_brand | string |
+
+- *`playground.orders`*
+  
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | order_id | int |
+  | order_date | date |
+  | item_id | int |
+  | buyer_id | int |
+  | seller_id | int |
+
+Your answer should include these columns:
+
+- `seller_id` integer
+- `has_pref_brand` varchar
+
+### ➡️ [Solution](DataExpert-SQL41.sql)
