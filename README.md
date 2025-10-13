@@ -90,4 +90,4 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 40: [Optimizing Stock of Prime and Non-Prime Items in a Warehouse](DataExpert.io/README.md#question-40-optimizing-stock-of-prime-and-non-prime-items-in-a-warehouse) ➡️ [Solution](DataExpert.io/DataExpert-SQL40.sql)
 
-## Question 41: [Check Second Sale Brand Preference Match](DataExpert.io/README.md#question-41-check-second-sale-brand-preference-match) ➡️ [Solution](DataExpert.io/DataExpert-SQL41.sql)
+#### Question 41: [Check Second Sale Brand Preference Match](DataExpert.io/README.md#question-41-check-second-sale-brand-preference-match) ➡️ [Solution](DataExpert.io/DataExpert-SQL41.sql)
