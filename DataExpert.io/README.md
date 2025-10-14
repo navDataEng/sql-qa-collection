@@ -1270,3 +1270,26 @@ Your answer should include these columns:
 - `has_pref_brand` varchar
 
 ### ➡️ [Solution](DataExpert-SQL41.sql)
+
+## Question 42: [Find Top 3 Commonly Bought Product Pairs](https://www.dataexpert.io/question/commonly-bought-product-pairs)
+
+Using the table `playground.product_transactions`, write a query to find the top 3 pairs of products that are most frequently bought together in the same transaction from the table `playground.product_transactions`. For this analysis, consider a pair to consist of two different products purchased in the same transaction.
+
+The output should list the pairs of products and the frequency of each pair (product1, product2, freq), ordered by frequency in descending order, product1 in ascending order and product2 in ascending order.
+
+These are the tables to query for this question:
+
+- *`playground.product_transactions`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | transaction_id | int |
+  | product_name | string |
+
+Your answer should include these columns:
+
+- `product1` varchar
+- `product2` varchar
+- `freq` integer
+
+### ➡️ [Solution](DataExpert-SQL42.sql)
