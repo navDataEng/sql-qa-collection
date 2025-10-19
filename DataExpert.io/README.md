@@ -1293,3 +1293,8 @@ Your answer should include these columns:
 - `freq` integer
 
 ### ➡️ [Solution](DataExpert-SQL42.sql)
+
+
+
+## Question 45 : [Identify Department for Reduction](https://www.dataexpert.io/question/department-reduction-criteria)
+

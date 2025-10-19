@@ -93,3 +93,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 41: [Check Second Sale Brand Preference Match](DataExpert.io/README.md#question-41-check-second-sale-brand-preference-match) ➡️ [Solution](DataExpert.io/DataExpert-SQL41.sql)
 
 #### Question 42: [Find Top 3 Commonly Bought Product Pairs](DataExpert.io/README.md#question-42-find-top-3-commonly-bought-product-pairs) ➡️ [Solution](DataExpert.io/DataExpert-SQL42.sql)
+
+#### Question 45: [Identify Department for Reduction](DataExpert.io/README.md#question-45--identify-department-for-reduction)
