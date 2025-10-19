@@ -94,4 +94,10 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 42: [Find Top 3 Commonly Bought Product Pairs](DataExpert.io/README.md#question-42-find-top-3-commonly-bought-product-pairs) ➡️ [Solution](DataExpert.io/DataExpert-SQL42.sql)
 
-#### Question 45: [Identify Department for Reduction](DataExpert.io/README.md#question-45--identify-department-for-reduction)
+#### Question 43: [Count Unique Conversation Threads](DataExpert.io/README.md#question-43-count-unique-conversation-threads) ➡️ [Solution](DataExpert.io/DataExpert-SQL43.sql)
+
+#### Question 44: [Identifying Multi-Component Bugs and Their Impact](DataExpert.io/README.md#question-44-identifying-multi-component-bugs-and-their-impact) ➡️ [Solution](DataExpert.io/DataExpert-SQL44.sql)
+
+#### Question 45: [Identify Department for Reduction](DataExpert.io/README.md#question-45--identify-department-for-reduction) ➡️ [Solution](DataExpert.io/DataExpert-SQL45.sql)
+
+#### Question 46: [Year-on-Year Growth Rate Calculation](DataExpert.io/README.md#question-46-year-on-year-growth-rate-calculation) ➡️ [Solution](DataExpert.io/DataExpert-SQL45.sql)

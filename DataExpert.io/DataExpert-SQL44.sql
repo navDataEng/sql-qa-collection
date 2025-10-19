@@ -1,4 +1,5 @@
---
+-- Question: Identifying Multi-Component Bugs and Their Impact
+-- https://www.dataexpert.io/question/multi-component-bugs-impact
 
 
 WITH MultiComponentBugs AS (

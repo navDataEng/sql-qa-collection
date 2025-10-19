@@ -1294,7 +1294,121 @@ Your answer should include these columns:
 
 ### ➡️ [Solution](DataExpert-SQL42.sql)
 
+## Question 43: [Count Unique Conversation Threads](https://www.dataexpert.io/question/unique-conversation-threads)
 
+Using the table `playground.messenger`, write a SQL query to find the number of unique conversation threads in the `playground.messenger` table. A conversation thread is identified by the `sender_id` and `receiver_id` columns.
+
+Note that if a thread has sender_id and receiver_id inverted in another row, it should still be counted as the same thread. For example, a conversation where sender_id=1 and receiver_id=2 should be considered the same thread as one where sender_id=2 and receiver_id=1.
+
+The result should just be a single column called count given in any order.
+
+These are the tables to query for this question:
+
+- *`playground.messenger`*
+
+  | Columns | DataTypes |
+  | :--- | :-- |
+  | sender_id | int |
+  | receiver_id | int |
+
+Your answer should include these columns:
+
+- `count` integer
+
+### ➡️ [Solution](DataExpert-SQL43.sql)
+
+## Question 44: [Identifying Multi-Component Bugs and Their Impact](https://www.dataexpert.io/question/multi-component-bugs-impact)
+
+Analyze the `playground.bug`, `playground.component`, and `playground.bug_component` tables to identify bugs affecting multiple components. Bug table contains num (unique bug number) and title (bug title). Component table includes id (unique component id) and title (component title). BugComponent table links bugs to components with bug_num (references Bug.num) and component_id (references Component.id).
+
+The task is to list each bug (that affects more than one component) with the titles of affected components and the total number of bugs in these components. Output columns: bug_title, component_title, bugs_in_component, ordered by bugs_in_component (descending), then by bug_title (ascending).
+
+These are the tables to query for this question:
+
+- *`playground.bug`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | num | int |
+  | title | string |
+
+- *`playground.component`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | title | string |
+
+- *`playground.bug_component`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | bug_num | int |
+  | component_id | int |
+
+Your answer should include these columns:
+
+- `bug_title` varchar
+- `component_title` varchar
+- `bugs_in_component` integer
+
+### ➡️ [Solution](DataExpert-SQL44.sql)
 
 ## Question 45 : [Identify Department for Reduction](https://www.dataexpert.io/question/department-reduction-criteria)
 
+Select departments that have no more than 5 employees. From these, choose departments based on the descending order of the total salary of its employees. In case of a tie in total salary, prioritize the department with the greater number of employees. If still tied, prioritize by the smallest department id.
+
+From the resulting list, eliminate departments in even positions, leaving only those in odd positions for further consideration. The resulting table should contain columns for department name, number of employees, and total salary, sorted as described.
+
+These are the tables to query for this question:
+
+- *`playground.dept`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | name | string |
+
+- *`playground.emp`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | full_name | string |
+  | salary | int |
+  | department | int |
+
+Your answer should include these columns:
+
+- `dep_name` varchar
+- `emp_number` integer
+- `total_salary` integer
+
+### ➡️ [Solution](DataExpert-SQL45.sql)
+
+## Question 46: [Year-on-Year Growth Rate Calculation](https://www.dataexpert.io/question/year-on-year-growth-rate)
+
+Using the table `playground.dates`, write a SQL query to calculate the year-on-year growth rate for the total spend of each product.
+
+The output should include the year, product ID, current years spend, previous years spend, and the year-on-year growth percentage, rounded to 2 decimal places, grouped by product ID and sorted by year in ascending order.
+
+These are the tables to query for this question:
+
+- *`playground.dates`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | transaction_id | int |
+  | product_id | int |
+  | spend | double |
+  | transaction_date | date |
+
+Your answer should include these columns:
+
+- `year` integer
+- `product_id` integer
+- `current_year_spend` double
+- `previous_year_spend` double
+- `yoy_rate` double
+
+### ➡️ [Solution](DataExpert-SQL46.sql)
