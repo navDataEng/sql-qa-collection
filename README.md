@@ -100,4 +100,8 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 
 #### Question 45: [Identify Department for Reduction](DataExpert.io/README.md#question-45--identify-department-for-reduction) ➡️ [Solution](DataExpert.io/DataExpert-SQL45.sql)
 
-#### Question 46: [Year-on-Year Growth Rate Calculation](DataExpert.io/README.md#question-46-year-on-year-growth-rate-calculation) ➡️ [Solution](DataExpert.io/DataExpert-SQL45.sql)
+#### Question 46: [Year-on-Year Growth Rate Calculation](DataExpert.io/README.md#question-46-year-on-year-growth-rate-calculation) ➡️ [Solution](DataExpert.io/DataExpert-SQL46.sql)
+
+#### Question 47: [Determining the Soccer Series Winner](DataExpert.io/README.md#question-47-determining-the-soccer-series-winner) ➡️ [Solution](DataExpert.io/DataExpert-SQL47.sql)
+
+#### Question 48: [Who are the top 10 NBA players by consecutive 20+ point seasons?](DataExpert.io/README.md#question-48-who-are-the-top-10-nba-players-by-consecutive-20-point-seasons) ➡️ [Solution](DataExpert.io/DataExpert-SQL48.sql)

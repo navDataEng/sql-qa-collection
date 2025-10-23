@@ -1412,3 +1412,70 @@ Your answer should include these columns:
 - `yoy_rate` double
 
 ### ➡️ [Solution](DataExpert-SQL46.sql)
+
+## Question 47: [Determining the Soccer Series Winner](https://www.dataexpert.io/question/soccer-series-winner)
+
+From the `playground.scores` table, write a SQL query to determine the series winner based on the following criteria:
+
+- The team with the most game wins is the winner.
+- If the wins are equal, the team with the better overall goal difference (goals scored - goals conceded) wins.
+- If goal differences are also equal, the winner is the team with more goals scored in away games (when not the host).
+
+The "scores" table includes match_id (unique match ID), first_team_score, second_team_score, and match_host (1 or 2, indicating the host team). Return a table with a single column "winner" that contains 1 (for the first team), 2 (for the second team), or 0 if no winner is determined based on these criteria.
+
+These are the tables to query for this question:
+
+- *`playground.scores`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | match_id | int |
+  | first_team_score | int |
+  | second_team_score | int |
+  | match_host | int |
+
+Your answer should include these columns:
+
+- `winner` integer
+
+### ➡️ [Solution](DataExpert-SQL47.sql)
+
+## Question 48: [Who are the top 10 NBA players by consecutive 20+ point seasons?](https://www.dataexpert.io/question/consecutive-20-point-seasons)
+
+Using the table `bootcamp.nba_player_seasons`, find the most consecutive seasons a player has scored 20+ points and find the top 10 players! Make sure to handle ties correctly (you might have more than 10 records!).
+
+Sort the output data set by consecutive_seasons descending and player_name ascending!
+
+These are the tables to query for this question:
+
+- *`bootcamp.nba_player_seasons`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | player_name | string |
+  | age | int |
+  | height | string |
+  | weight | int |
+  | college | string |
+  | country | string |
+  | draft_year | string |
+  | draft_round | string |
+  | draft_number | string |
+  | gp | double |
+  | pts | double |
+  | reb | double |
+  | ast | double |
+  | netrtg | double |
+  | oreb_pct | double |
+  | dreb_pct | double |
+  | usg_pct | double |
+  | ts_pct | double |
+  | ast_pct | double |
+  | season | int |
+
+Your answer should include these columns:
+
+- `player_name` varchar
+- `consecutive_seasons` integer
+
+### ➡️ [Solution](DataExpert-SQL48.sql)
