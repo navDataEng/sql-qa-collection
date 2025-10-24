@@ -1479,3 +1479,31 @@ Your answer should include these columns:
 - `consecutive_seasons` integer
 
 ### ➡️ [Solution](DataExpert-SQL48.sql)
+
+## Question 49: [Summarizing Leisure Activity Resorts by Country](https://www.dataexpert.io/question/leisure-activity-resorts-by-country)
+
+Given a table `playground.country_activities` with columns: id (unique identifier), country (name of the country), region (region within the country), leisure_activity_type (type of leisure activity), and number_of_places (number of resorts offering the activity).
+
+Construct a SQL query to aggregate this information into a new table structure. The resulting table should have columns for each country, with the counts of resorts offering each type of activity: adventure_park, golf, river_cruise, and kart_racing. Sort the result by country name in ascending order.
+
+These are the tables to query for this question:
+
+- `*playground.country_activities`*
+
+  | Columns | DataTypes |
+  | :--- | :--- |
+  | id | int |
+  | country | string |
+  | region | string |
+  | leisure_activity_type | string |
+  | number_of_places | int |
+
+Your answer should include these columns:
+
+- `country` varchar
+- `adventure_park` integer
+- `golf` integer
+- `river_cruise` integer
+- `kart_racing` integer
+
+### ➡️ [Solution](DataExpert-SQL49.sql)

@@ -105,3 +105,5 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 47: [Determining the Soccer Series Winner](DataExpert.io/README.md#question-47-determining-the-soccer-series-winner) ➡️ [Solution](DataExpert.io/DataExpert-SQL47.sql)
 
 #### Question 48: [Who are the top 10 NBA players by consecutive 20+ point seasons?](DataExpert.io/README.md#question-48-who-are-the-top-10-nba-players-by-consecutive-20-point-seasons) ➡️ [Solution](DataExpert.io/DataExpert-SQL48.sql)
+
+#### Question 49: [Summarizing Leisure Activity Resorts by Country](DataExpert.io/README.md#question-49-summarizing-leisure-activity-resorts-by-country) ➡️ [Solution](DataExpert.io/DataExpert-SQL49.sql)
