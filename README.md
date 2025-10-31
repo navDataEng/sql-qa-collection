@@ -6,9 +6,9 @@ This repo gathers a variety of SQL questions and their solutions from multiple s
 
 It serves as a resource for learning, practicing, and reviewing SQL concepts through Questions.
 
-## [DataExpert.io](DataExpert.io/README.md#dataexpertio)
+## *[DataExpert.io](README.md#dataexpertio-1)* | *[LeetCode](README.md#leetcode)*
 
-###
+### [DataExpert.io](DataExpert.io/README.md#dataexpertio)
 
 #### Question 01: [Find Viewers with Multiple Article Views in a Day](DataExpert.io/README.md#question-01-find-viewers-with-multiple-article-views-in-a-day) ➡️ [Solution](DataExpert.io/DataExpert-SQL01.sql)
 
@@ -107,3 +107,9 @@ It serves as a resource for learning, practicing, and reviewing SQL concepts thr
 #### Question 48: [Who are the top 10 NBA players by consecutive 20+ point seasons?](DataExpert.io/README.md#question-48-who-are-the-top-10-nba-players-by-consecutive-20-point-seasons) ➡️ [Solution](DataExpert.io/DataExpert-SQL48.sql)
 
 #### Question 49: [Summarizing Leisure Activity Resorts by Country](DataExpert.io/README.md#question-49-summarizing-leisure-activity-resorts-by-country) ➡️ [Solution](DataExpert.io/DataExpert-SQL49.sql)
+
+---
+
+### [LeetCode](LeetCode/README.md)
+
+#### Question 01: [1407. Top Travellers](LeetCode/README.md#question-01-1407-top-travellers) ➡️ [Solution](LeetCode/LeetCode-SQL01.sql)
